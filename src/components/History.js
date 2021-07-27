@@ -1,28 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-const History = ({history, moveTo, currentMove}) => {
+const History = ({ history, moveTo, currentMove }) => {
   return (
-    <ul>
-      {
-        history.map((_,move) =>{
+    <div className="history-wrapper">
+      <ul className="history">
+        {history.map((_, move) => {
           return (
-          <li key={move}>
-            <button 
-              type="button" 
-              onClick={()=>moveTo(move)}
-              style={{
-                background: '#fff',
-                fontWeight: move === currentMove ? 'bold' : 'normal',
-              }}
+            <li key={move}>
+              <button
+                className={`btn-move ${move === currentMove ? 'active' : ''}`}
+                type="button"
+                onClick={() => {
+                  moveTo(move);
+                }}
               >
-              {move===0 ? 'Restart' : move===9 ? 'Game Over. Its a Draw' : `Go to move #${move}`}
-            </button>
-          </li>
-          )
-        })
-      }
-    </ul>
-  )
-}
+                {move === 0 ? 'Go to game start' : `Go to move #${move}`}
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+};
 
-export default History
+export default History;
