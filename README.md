@@ -2,6 +2,10 @@
 
 Bootstrapped using Parcel(React)
 
+## To view the project on a browser:
+
+Link `https://icefire-tictactoe.web.app/`
+
 ## To try it out locally
 
 - `npm run build` — This will output a production build in the `dist` directory.
@@ -21,9 +25,6 @@ Or edit the `start` script directly:
 parcel index.html -p 3000
 ```
 
-## To view the project on a browser:
-
-Link ` `
 
 ## What it looks like
 
