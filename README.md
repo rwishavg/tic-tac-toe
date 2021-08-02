@@ -4,7 +4,7 @@ Bootstrapped using Parcel(React)
 
 ## To view the project on a browser:
 
-Link `https://icefire-tictactoe.web.app/`
+Link :https://icefire-tictactoe.web.app/
 
 ## To try it out locally
 
