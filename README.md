@@ -1,9 +1,11 @@
-# Nano React App Default Javascript Template
+# Tic Tac Toe
 
-The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
+Bootstrapped using Parcel(React)
 
-- `npm start` — This will spawn a development server with a default port of `1234`.
+## To try it out locally
+
 - `npm run build` — This will output a production build in the `dist` directory.
+- `npm run start` — This will spawn a development server with a default port of `1234`.
 
 ## Custom port
 
@@ -19,20 +21,13 @@ Or edit the `start` script directly:
 parcel index.html -p 3000
 ```
 
-## Adding styles
+## To view the project on a browser:
 
-You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
+Link ` `
 
-```js
-import "./index.css";
-```
+## What it looks like
 
-## Babel transforms
-
-The Babel preset [babel-preset-nano-react-app](https://github.com/nano-react-app/babel-preset-nano-react-app) is used to support the same transforms that Create React App supports.
-
-The Babel configuration lives inside `package.json` and will override an external `.babelrc` file, so if you want to use `.babelrc` remember to delete the `babel` property inside `package.json`.
-
+![Screenshot 2021-07-27 193558](https://user-images.githubusercontent.com/55898039/127168233-d5a1af33-21e2-4515-a966-30d908f44dcb.png)
 
 ## Deploy to GitHub Pages
 
